@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "description": "Yashsvi's Portfolio 2023 made for Web Devlopment and designing",
+  "author": "alisha-dutt <lishaadutt@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "@popperjs/core": "^2.11.6",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.6.3",
+    "morgan": "~1.9.1",
+    "popper": "^1.0.1"
+  }
+}

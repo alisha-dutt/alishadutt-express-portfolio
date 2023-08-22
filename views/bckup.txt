@@ -1,0 +1,75 @@
+<div class="container pb-4 mb-4 intro-bg">
+        
+            <div class="row">
+                <div class="col pt-4 mt-4">
+                    <h1 class="display-1">Hey!</h1>
+                    <h1 class="display-1 italic"> Looking for a Web Solution?</h1>
+                    <p class="lead text-capitalize"> A Web & Graphic Designer </p>
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="lead">Our Mission at <span class="logo-text">Grace</span> is creating custom web with
+                        poise, refinement and style using latest and reliable web technologies. </p>
+                </div>
+            </div>
+            <!-- menu item cards  -->
+            <div class="row">
+                <!-- projects  -->
+                <div class="col-3 mt-3">
+                    <div class="card text-center" id="bounce">
+                        <div class="card-body">
+                            <h5 class="card-title">Projects</h5>
+                            <p class="card-text display-1"><i class="custom-text-shadow fa-solid fa-code"></i></p>
+                            <a href="/projects" class="nav-link ">
+                                <button class="btn btn-large btn-outline-dark"> See our Projects</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2  -->
+                <!-- services  -->
+                <div class="col-3 mt-3">
+                    <div class="card text-center" id="bounce">
+                        <div class="card-body">
+                            <h5 class="card-title">Services</h5>
+                            <p class="card-text display-1"><i
+                                    class="custom-text-shadow fa-solid fa-screwdriver-wrench"></i></p>
+                            <a href="/services" class="nav-link ">
+                                <button class="btn btn-large btn-outline-dark"> Explore our Services</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 3  -->
+                <!-- about  -->
+                <div class="col-3 mt-3">
+                    <div class="card text-center" id="bounce">
+                        <div class="card-body">
+                            <h5 class="card-title">About</h5>
+                            <p class="card-text display-1"><i class="custom-text-shadow fa-regular fa-address-card"></i>
+                            </p>
+                            <a href="/about" class="nav-link ">
+                                <button class="btn btn-large btn-outline-dark"> Know About Us</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 4  -->
+                <!-- contact  -->
+                <div class="col-3 mt-3">
+                    <div class="card text-center" id="bounce">
+                        <div class="card-body">
+                            <h5 class="card-title">Contact</h5>
+                            <p class="card-text display-1"><i class="custom-text-shadow fasolid fa-at"></i></p>
+                            <a href="/contact" class="nav-link ">
+                                <button class="btn btn-large btn-outline-dark"> Contact Us</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
