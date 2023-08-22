@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzQSBsX9w05FU3mHULTuEzhmboMjghHhBHCdNhqSBITgS1y_f4Ar2uCEmyXJopQ2Ke2rQ/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzBwUHRFMHkwOX1ISEDi-v-_3ihtWRfQRuy-ScSOGWl/dev'
 
 const form = document.forms['PortfolioResponses']
 
