@@ -6,10 +6,8 @@ router.get('/',(req, res)=> {
   res.render('index', { title: 'Portfolio' });
 });
 
-/* GET about page. */
-router.get('/work',(req, res)=> {
-  res.render('work', { title: 'Portfolio Projects'});
+/* GET work page. */
+router.get('/nxpro',(req, res)=> {
+  res.render('nxpro', { title: 'NxPro'});
 });
-
-
 module.exports = router;

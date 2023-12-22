@@ -1,6 +1,6 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzBwUHRFMHkwOX1ISEDi-v-_3ihtWRfQRuy-ScSOGWl/dev'
+const scriptURL = 'https://script.google.com/macros/library/d/1MUO_Qtv9k_AqnojJTDpd1CBfqk8Z7pYPI5VpuytKF3CRK8C_K_xDZ-jL/1'
 
-const form = document.forms['PortfolioResponses']
+const form = document.forms['contact-form']
 
 form.addEventListener('submit', e => {
  e.preventDefault()

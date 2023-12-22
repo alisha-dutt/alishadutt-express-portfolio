@@ -1,3 +1,24 @@
+<!-- Header -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1><span id="animation-container"></span>, I'm <span>Yashsvi</span></h1>
+            <p>I am Interactive Web Developer, UI/UX designer & graphic designer.</p>
+        </div>
+    </div>
+</div>
 <div id="about">
     <div class="container">
         <div class="row">
@@ -6,15 +27,30 @@
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
-                <p>I'm Yashsvi (aka Alisha Dutt) , a dedicated professional with 2+ years of experience in web
-                    development and design. My journey has been driven by a genuine passion for coding and creating
-                    digital experiences that seamlessly merge with the beauty of nature. Proficient in HTML, CSS,
-                    ExpressJS and more, I bring creativity and innovation to every project I undertake. Notably, I've
-                    earned certifications in competitive web development, showcasing my commitment to continuous growth.
-                    Customer satisfaction sits at the heart of my philosophy, and I take pride in delivering solutions
-                    that exceed expectations. Beyond my work, I find solace in photography and the enchantment of music.
-                    With an unwavering ambition, I aspire to become a prominent female figure in the web development
-                    industry, inspiring others through my work and dedication.</p>
+                <p>I'm Yashsvi (aka Alisha Dutt), a dedicated professional with over 2 years of experience in web
+                    development and design. My journey has been fueled by a genuine passion for coding and crafting
+                    digital experiences that seamlessly blend with the beauty of nature.
+
+                    Proficient in HTML, CSS, JS,PHP and more, I specialize in writing, modifying, integrating, and
+                    thoroughly testing software code. I excel in maintaining existing computer programs by implementing
+                    necessary modifications and identifying technical problems, processes, and solutions. My commitment
+                    to excellence is reflected in my ability to prepare comprehensive reports, manuals, and other
+                    documentation on the status, operation, and maintenance of Web Apps.<br /><br />
+
+                    I actively engage in assisting with the collection and documentation of user requirements, ensuring
+                    that every project aligns seamlessly with the needs of the end-users. Moreover, my skills extend to
+                    researching and evaluating various software products to ensure optimal solutions.<br /><br />
+
+                    My expertise extends to writing, modifying, integrating, and testing software code specifically
+                    tailored for e-commerce and other internet applications. I've successfully earned certifications in
+                    competitive web development, showcasing my dedication to continuous learning and professional
+                    growth.<br /><br />
+
+                    Customer satisfaction lies at the core of my philosophy, and I take pride in delivering solutions
+                    that not only meet but exceed expectations. Beyond the realms of web development, I find solace in
+                    the art of photography and the enchantment of music. With an unwavering ambition, I aspire to become
+                    a prominent female figure in the web development industry, inspiring others through my work and
+                    unwavering dedication.</p>
 
                 <div class="tab-titles">
                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -31,14 +67,16 @@
                 </div>
                 <div class="tab-contents" id="experience">
                     <ul>
-                        <li><span>2023 - Current</span><br>Freelance Work</li>
-                        <li><span>2021- 2023</span><br>Georgian College - 10+ CRUD Academic Projects</li>
-                        <li><span>2021</span><br>Internship at NxPro - Next Generation Professionals.</li>
+                        <li><span>2023-Current</span><br>Freelance Work & Projects</li>
+                        <li><span>2021-2023</span><br>Georgian College - 10+ CRUD Academic Projects</li>
+                        <li><span>2021-2022</span><br>UI Designer & Front-End Web Developer at NxPro - Next Generation
+                            Professionals.</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="education">
                     <ul>
-                        <li><span>2021-2023</span><br>Interactive Media Design - Web at Georgian College (2 Years)</li>
+                        <li><span>2021-2023</span><br>Interactive Media Design - Web Diploma at Georgian College (2
+                            Years)</li>
                         <li><span>2021</span><br>Bachleor's of Computer Application at PGGCG-11 (1 Year)</li>
                         <li><span>2020</span><br>Post Secondary Voc. studies in Web Application & IT at GGMSSS-18 (2
                             Years) </li>
@@ -77,39 +115,137 @@
         </div>
     </div>
 </div>
-<!-- ----------portfolio------------ -->
+<!-- ------------SKILLS--------------------- -->
+<!-- skills section start -->
+<div class="container">
+    <h1 class="sub-title">My Skills</h1>
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est
+                        recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi.
+                        Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam
+                        alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="line html"></div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>CSS</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="line css"></div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>Python</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="line py"></div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Git & Github</span>
+                                        <span>75%</span>
+                                    </div>
+                                    <div class="line opensource"></div>
+                                    <div class="bars">
+                                        <div class="info">
+                                            <span>BootStrap</span>
+                                            <span>100%</span>
+                                        </div>
+                                        <div class="line html"></div>
+                                        <div class="bars">
+                                            <div class="info">
+                                                <span>Tailwind CSS</span>
+                                                <span>100%</span>
+                                            </div>
+                                            <div class="line html"></div>
+                                            <div class="bars">
+                                                <div class="info">
+                                                    <span>Adobe Photoshop & Illustrator</span>
+                                                    <span>80%</span>
+                                                </div>
+                                                <div class="line adpi"></div>
+                                                <div class="bars">
+                                                    <div class="info">
+                                                        <span>Cloud Computing</span>
+                                                        <span>50%</span>
+                                                    </div>
+                                                    <div class="line cc"></div>
+                                                    <div class="bars">
+                                                        <div class="info">
+                                                            <span>Artificial Intelligence</span>
+                                                            <span>25%</span>
+                                                        </div>
+                                                        <div class="line ai"></div>
+                                                        <div class="bars">
+                                                            <div class="info">
+                                                                <span>Blender</span>
+                                                                <span>50%</span>
+                                                            </div>
+                                                            <div class="line bld"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+    </section>
+</div>
+
+<!-- ----------work------------ -->
 <div id="portfolio">
+
     <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/work-1mob.png">
+                <img src="images/work-1.jpg">
                 <div class="layer">
                     <h3>NxPro - Revamped Company Website</h3>
                     <p>Contributed to NxPro's success through website redesign during internship at an innovative IT
                         solutions firm.</p>
-                    <a href="https://www.nxpro.com/"><i class="fas fa-external-link-alt"></i></a>
+                    <h4>Languages used</h4>
+                    <a href="/nxpro" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="images/work-7.png">
+                <img src="images/work-3.png">
                 <div class="layer">
-                    <h3>GreenGauge - Carbon Emissions</h3>
-                    <p>Tracking Global Carbon Emissions: Exploring Climate Impact.</p>
-                    <a href="https://greengauge.onrender.com/"><i class="fas fa-external-link-alt"></i></a>
+                    <h3>Five Feet Apart - Book Cover</h3>
+                    <p>Crafted the 'Five Feet Apart' book cover using CSS for a captivating digital design.</p>
+                    <a href="https://five-feet-apart-book-cover.onrender.com/" target="_blank"><i
+                            class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- new row -->
+    <div class="container">
+        <div class="work-list">
             <div class="work">
-                <img src="images/work-2mob.png">
+                <img src="images/work-2.png">
                 <div class="layer">
                     <h3>Dolphin Cards - Company's Landing Page</h3>
                     <p>Curated captivating product showcases at Dolphin Cards, your one-stop store for exquisite cards
                         and more.</p>
-                    <a href="https://yashsvinxpro.wixsite.com/my-site"><i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://yashsvinxpro.wixsite.com/my-site" target="_blank"><i
+                            class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
-
+            <div class="work">
+                <img src="images/work-4.jpg">
+                <div class="layer">
+                    <h3>Your Recipe - ASP.NET Application</h3>
+                    <p>Unleash your culinary creativity with YourRecipe, the platform to globally share your cooking
+                        secrets.</p>
+                    <a href="https://www.nxpro.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
         </div>
-        <a href="/work" class="btn">See more</a>
     </div>
 </div>

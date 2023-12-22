@@ -181,16 +181,107 @@ nav ul li a:hover::after{
 }
 .services-list div:hover{
   background: #fdb1be;
-  color: #000;
+  background-image: url(../images/services-bg.jpg);
+  color: #fff;
   transform: translateY(-10px);
 }
-/* -------portfolio----------- */
+/* SKILLS */
+/* skills section styling */
+.skills .skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .title::after{
+  content: "Services provided by him";
+}
+.skills .skills-content .column{
+  width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+  text-align: justify;
+}
+.skills .skills-content .left a{
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+  color: crimson;
+  background: none;
+}
+.skills .skills-content .right .bars{
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span{
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .skills-content .right .line{
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.skills .skills-content .right .line::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: crimson;
+}
+.skills-content .right .html::before{
+  width: 100%;
+}
+.skills-content .right .css::before{
+  width: 80%;
+}
+.skills-content .right .py::before{
+  width: 70%;
+}
+.skills-content .right .cc::before{
+  width: 50%;
+}
+.skills-content .right .opensource::before{
+  width: 75%;
+}
+.skills-content .right .adpi::before{
+  width: 80%;
+}
+.skills-content .right .ai::before{
+  width: 25%;
+}
+.skills-content .right .bld::before{
+  width: 50%;
+}
+/* -------work ----------- */
 #portfolio{
   padding: 50px 0;
 }
 .work-list{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
 }
@@ -208,7 +299,9 @@ nav ul li a:hover::after{
 .layer{
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0,0,0,0.9), #fdb1be);
+  /* background: linear-gradient(rgba(0,0,0,0.9), #fdb1be); */
+  background:url(../images/work-overlay.jpg);
+  border: #fff 3px solid;
   border-radius: 10px;
   position: absolute;
   left: 0;
