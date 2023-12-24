@@ -353,6 +353,9 @@ nav ul li a:hover::after{
   background: #fdb1be;
 }
 
+.fas, .fa-external-link-alt{
+  color: #000;
+}
 /* ---------contact-------- */
 .contact-left{
   flex-basis: 35%;

@@ -124,10 +124,18 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est
-                        recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi.
-                        Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam
-                        alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                    <p>I'm all about creating awesome digital
+                        experiences. Let's talk tech: HTML, CSS, and JavaScript are my playground, and I sprinkle in
+                        some magic with Express.js and React for those dynamic vibes. Bootstrap is my secret sauce for
+                        making things look slick and responsive. I'm the Git ninja you didn't know you needed, and I
+                        dance with servers using ASP.NET, PHP, and make WordPress do backflips.<br /><br />
+
+                        Now, on the design dance floor, I whip up mood boards and style guides like a pro. Adobe XD and
+                        Figma are my partners in crime for crafting pixel-perfect designs that make users go "Wow!" Need
+                        a database wrangled? I'm your go-to for RDBMS, MongoDB, and SQL wizardry. And don't worry, I
+                        document like a champ—keeping things clear and organized.<br /><br />
+
+                        Excited to bring a mix of tech and design to your projects! 🚀✨</p>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -139,12 +147,12 @@
                         <div class="bars">
                             <div class="info">
                                 <span>CSS</span>
-                                <span>80%</span>
+                                <span>90%</span>
                             </div>
                             <div class="line css"></div>
                             <div class="bars">
                                 <div class="info">
-                                    <span>Python</span>
+                                    <span>JavaScript</span>
                                     <span>70%</span>
                                 </div>
                                 <div class="line py"></div>
@@ -163,62 +171,74 @@
                                         <div class="bars">
                                             <div class="info">
                                                 <span>Tailwind CSS</span>
-                                                <span>100%</span>
+                                                <span>80%</span>
                                             </div>
                                             <div class="line html"></div>
                                             <div class="bars">
                                                 <div class="info">
-                                                    <span>Adobe Photoshop & Illustrator</span>
-                                                    <span>80%</span>
+                                                    <span>Adobe Photoshop & Illustrator & XD</span>
+                                                    <span>60%</span>
                                                 </div>
                                                 <div class="line adpi"></div>
                                                 <div class="bars">
                                                     <div class="info">
-                                                        <span>Cloud Computing</span>
-                                                        <span>50%</span>
+                                                        <span>ASP.NET</span>
+                                                        <span>60%</span>
                                                     </div>
                                                     <div class="line cc"></div>
                                                     <div class="bars">
                                                         <div class="info">
-                                                            <span>Artificial Intelligence</span>
+                                                            <span>Figma</span>
                                                             <span>25%</span>
                                                         </div>
                                                         <div class="line ai"></div>
                                                         <div class="bars">
                                                             <div class="info">
-                                                                <span>Blender</span>
-                                                                <span>50%</span>
+                                                                <span>RDBMS/MongoDb</span>
+                                                                <span>60%</span>
                                                             </div>
                                                             <div class="line bld"></div>
+                                                            <div class="bars">
+                                                                <div class="info">
+                                                                    <span>Wordpress</span>
+                                                                    <span>60%</span>
+                                                                </div>
+                                                                <div class="line bld"></div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
     </section>
 </div>
 
 <!-- ----------work------------ -->
 <div id="portfolio">
-
     <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
+            {{!-- NxPro --}}
             <div class="work">
                 <img src="images/work-1.jpg">
                 <div class="layer">
-                    <h3>NxPro - Revamped Company Website</h3>
+                    <h4>NxPro - Revamped Company Website</h4>
                     <p>Contributed to NxPro's success through website redesign during internship at an innovative IT
-                        solutions firm.</p>
-                    <h4>Languages used</h4>
-                    <a href="/nxpro" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        solutions firm.</p><br />
+                    <h4>Languages</h4>
+                    <p>PHP, HTML, CSS, WordPress, jQuery, JavaScript</p>
+                    <a href="https://www.nxpro.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
+            {{!-- GreenGauge --}}
             <div class="work">
-                <img src="images/work-3.png">
+                <img src="images/gg.png">
                 <div class="layer">
-                    <h3>Five Feet Apart - Book Cover</h3>
-                    <p>Crafted the 'Five Feet Apart' book cover using CSS for a captivating digital design.</p>
-                    <a href="https://five-feet-apart-book-cover.onrender.com/" target="_blank"><i
+                    <h4>GreenGauge- Carbon Emission Client Based Project</h4>
+                    <p>Express.js powered website using MongoDB to gauge and capture carbon emissions, fostering
+                        awareness and action for a greener future by reducing carbon footprints. Team-based project</p>
+                    <br />
+                    <h4>Languages</h4>
+                    <p>ExpressJs, Handlebars, HTML, CSS, JS, MongoDb </p>
+                    <a href="https://greengauge.onrender.com/" target="_blank"><i
                             class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
@@ -230,20 +250,53 @@
             <div class="work">
                 <img src="images/work-2.png">
                 <div class="layer">
-                    <h3>Dolphin Cards - Company's Landing Page </h3>
+                    <h4>Dolphin Cards - Company's Landing Page </h4>
                     <p>Curated captivating product showcases at Dolphin Cards, your one-stop store for exquisite cards
-                        and more.</p>
+                        and more.</p><br />
+                    <h4>Languages</h4>
+                    <p>WIX and CSS</p>
                     <a href="https://yashsvinxpro.wixsite.com/my-site" target="_blank"><i
                             class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="images/work-4.jpg">
+                <img src="images/grace.png">
                 <div class="layer">
-                    <h3>Your Recipe - ASP.NET Application</h3>
-                    <p>Unleash your culinary creativity with YourRecipe, the platform to globally share your cooking
-                        secrets.</p>
-                    <a href="https://www.nxpro.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <h4>Grace Designs - Portfolio</h4>
+                    <p>A dynamic portfolio project showcasing my diverse skills and creative endeavors in the world of
+                        web development and design.</p><br />
+                    <h4>Languages</h4>
+                    <p>HTML, CSS, BootStrap, React, </p>
+                    <a href="https://gracedesigns-portfolio.onrender.com/" target="_blank"><i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{!-- new row --}}
+      <div class="container">
+        <div class="work-list">
+          <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h4>Five Feet Apart - Book Cover</h4>
+                    <p>Crafted the 'Five Feet Apart' book cover using CSS for a captivating digital design.</p><br />
+                    <h4>Languages</h4>
+                    <p>HTML, CSS, BootStrap</p>
+                    <a href="https://five-feet-apart-book-cover.onrender.com/" target="_blank"><i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/grace.png">
+                <div class="layer">
+                    <h4>Grace Designs - Portfolio</h4>
+                    <p>A dynamic portfolio project showcasing my diverse skills and creative endeavors in the world of
+                        web development and design.</p><br />
+                    <h4>Languages</h4>
+                    <p>HTML, CSS, BootStrap, React, </p>
+                    <a href="https://gracedesigns-portfolio.onrender.com/" target="_blank"><i
+                            class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
         </div>
