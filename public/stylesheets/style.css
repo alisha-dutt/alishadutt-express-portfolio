@@ -352,7 +352,9 @@ nav ul li a:hover::after{
 .btn:hover{
   background: #fdb1be;
 }
-
+i{
+  color: #fdb1be;
+}
 .fas, .fa-external-link-alt{
   color: #000;
 }
