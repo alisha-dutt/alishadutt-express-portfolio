@@ -352,7 +352,7 @@ nav ul li a:hover::after{
 .btn:hover{
   background: #fdb1be;
 }
-i{
+i,i.fab{
   color: #fdb1be;
 }
 .fas, .fa-external-link-alt{
@@ -380,7 +380,7 @@ i{
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
-  color: #ababab;
+  color: #fdb1be;
   display: inline-block;
   transition: transform 0.5s;
 }
@@ -391,6 +391,8 @@ i{
 .btn.btn2{
   display: inline-block;
   background: #fdb1be;
+  color: #000;
+  font-weight: bold;
 }
 .contact-right form{
   width: 100%;
