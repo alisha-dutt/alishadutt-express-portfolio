@@ -13,14 +13,14 @@
   <!-- CSS -->
   <link rel="stylesheet" href="/stylesheets/style.css" />
   <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
-  <!-- Boostrap CDN -->
-  {{!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> --}}
+  <!-- SweetALert CDN -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+{{!-- Fontawesome --}}
+<script src="https://use.fontawesome.com/9515391efe.js"></script>
 </head>
 
 <body>
- 
-
-  <main>
+   <main>
     {{{body}}}
   </main>
 </body>
@@ -38,12 +38,11 @@
       </div>
       <div class="contact-right">
         <form name="contact-form" method="post" action="">
-          <input type="text" name="your-name" placeholder="Name">
-          <input type="text" name="your-number" placeholder="Number">
-          <input type="email" name="your-email" placeholder="Email">
-          <textarea name="message" rows="7" placeholder="Your Message"></textarea>
-          <input type="submit" value="Submit" id="submit"class="btn btn2">
-          {{!-- <button type="submit" >Submit</button> --}}
+          <input type="text" name="your-name" placeholder="Name" id="cfName">
+          <input type="text" name="your-number" placeholder="Number" id="cfNumber">
+          <input type="email" name="your-email" placeholder="Email" id="cfEmail">
+          <textarea name="message" rows="7" placeholder="Your Message" id="cfMessage"></textarea>
+          <input type="button" value="Submit" onclick="sendContact()" id="submit"class="btn btn2">
         </form>
         <span id="msg"></span>
       </div>
@@ -57,5 +56,6 @@
 <script src="/javascripts/typing.js" defer></script>
 <script src="/javascripts/scripts.js" defer></script>
 <script src="/javascripts/googlesheet.js" defer></script>
+<script src="https://web3forms.com/client/script.js" async defer></script>
 
 </html>

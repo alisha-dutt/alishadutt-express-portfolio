@@ -1,11 +1,32 @@
-const scriptURL = 'https://script.google.com/macros/library/d/1MUO_Qtv9k_AqnojJTDpd1CBfqk8Z7pYPI5VpuytKF3CRK8C_K_xDZ-jL/1'
+async function sendContact() {
+    let formData = new FormData()
+    formData.append("access_key", "fce1be2c-c767-40e4-83cb-2525a782a28b")
+    formData.append("name", document.getElementById("cfName").value)
+    formData.append("number", document.getElementById("cfNumber").value)
+    formData.append("email", document.getElementById("cfEmail").value)
+    formData.append("message", document.getElementById("cfMessage").value)
 
-const form = document.forms['contact-form']
+    let response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+    });
 
-form.addEventListener('submit', e => {
- e.preventDefault()
- fetch(scriptURL, { method: 'POST', body: new FormData(form)})
- .then(response => alert("Thank you! your form is submitted successfully." ))
- .then(() => { window.location.reload(); })
- .catch(error => console.error('Error!', error.message))
-})
+    result = await response.json();
+
+    if (result.success) {
+        Swal.fire({
+            title: "Bravo!",
+            text: "Your response was saved!",
+            icon: "success"
+          });
+    } else {
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong!",
+            footer: '<a href="#">Why do I have this issue?</a>'
+          });
+    }
+
+    setTimeout(() => { document.getElementById("cfResponse").innerText = "" }, 3000);
+}
