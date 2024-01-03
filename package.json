@@ -10,7 +10,7 @@
     "dev": "nodemon ./bin/www"
   },
   "engines": {
-    "node" : "14.17.0"
+    "node": "14.17.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.1",
@@ -23,6 +23,7 @@
     "hbs": "^4.2.0",
     "http-errors": "~1.6.3",
     "jquery": "^3.6.3",
+    "morgan": "^1.10.0",
     "popper": "^1.0.1",
     "sweetalert2": "^11.10.1"
   }
