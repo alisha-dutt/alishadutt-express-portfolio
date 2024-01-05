@@ -40,7 +40,9 @@ nav{
 .logo{
   width: 140px;
 }
-
+.navbars{
+  display: none;
+}
 nav ul li{
   display: inline-block;
   list-style: none;
@@ -416,11 +418,7 @@ form .btn2{
   text-decoration: none;
 }
 /* -----------------css for small screens--------- */
-nav .fas{
-  display: none;
-}
-
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
   #header{
       background-image: url(../images/phone-bg.jpg);
   }
@@ -430,6 +428,9 @@ nav .fas{
   }
   .header-text h1{
       font-size: 30px;
+  }
+  .navbars{
+    display: block;
   }
   nav .fas{
       display: block;

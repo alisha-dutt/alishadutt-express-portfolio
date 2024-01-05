@@ -19,7 +19,27 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
 </head>
-
+<!-- Header -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times navbars" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars navbars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1><span id="animation-container"></span>, I'm <span>Yashsvi</span></h1>
+            <p>I am Interactive Web Developer, UI/UX designer & graphic designer.</p>
+        </div>
+    </div>
+</div>
 <body>
   <main>
     {{{body}}}
